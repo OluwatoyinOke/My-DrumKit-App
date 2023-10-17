@@ -173,7 +173,7 @@ button{
         background-color: black;
         color: rgb(240, 220, 213);
     }
-    button:focus{
+    button:active{
         background-color: rgb(240, 220, 213);
         color: rgb(250, 207, 128);
     }
