@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.header{
+    color: rgb(240, 220, 213);
+    text-align: center;
+    margin: 80px;
+    text-decoration: line-through;
+}
+.heading{
+    color: rgb(250, 207, 128);
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px 30px 30px 30px;
+}
+.box{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid rgb(243, 212, 200);
+    padding: 5px;
+    /* animation: myDrumkitapp 5s ease-in; */
+}
+/* @keyframes myDrumkitapp{
+    0%{
+        transform: skew(180deg, 180deg);
+    }
+} */
+.hi-hat{
+    background-image: url(/assets/images/hihat.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+}
+.header-hihat{
+    color: rgb(250, 207, 128);
+    text-align: left;
+    margin-left: 20px;
+}
+.p-hihat{
+    color: rgb(240, 220, 213);
+    margin-top: 220px;
+    margin-left: 190px;
+    font-weight: bold;
+    position: relative;
+    font-style: italic;
+    font-size: 14px;
+}
+.p-hihat span{
+    color: rgb(250, 207, 128);
+}
+.drum-roll{
+    background-image: url(/assets/images/drumroll.png);
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-drumroll{
+    color: rgb(250, 207, 128);
+    text-align: left;
+    margin-left: 20px;
+}
+.p-drumroll{
+    color: rgb(240, 220, 213);
+    margin-top: 220px;
+    margin-left: 190px;
+    font-weight: bold;
+    position: relative;
+    font-style: italic;
+    font-size: 14px;
+}
+.p-drumroll span{
+    color: rgb(250, 207, 128);
+}
+.snare{
+    background-image: url(/assets/images/snare.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+}
+.header-snare{
+    color: rgb(250, 207, 128);
+    text-align: left;
+    margin-left: 20px;
+}
+.p-snare{
+    color: rgb(240, 220, 213);
+    margin-top: 220px;
+    margin-left: 190px;
+    font-weight: bold;
+    position: relative;
+    font-style: italic;
+    font-size: 14px;
+}
+.p-snare span{
+    color: rgb(250, 207, 128);
+}
+.kick{
+    background-image: url(/assets/images/kick.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+}
+.header-kick{
+    color: rgb(250, 207, 128);
+    text-align: left;
+    margin-left: 20px;
+}
+.p-kick{
+    color: rgb(240, 220, 213);
+    margin-top: 220px;
+    margin-left: 190px;
+    font-weight: bold;
+    position: relative;
+    font-style: italic;
+    font-size: 14px;
+}
+.p-kick span{
+    color: rgb(250, 207, 128);
+}
+button{
+    display: none;
+}
+@media(max-width: 500px){ 
+    body{
+        margin: auto;
+    }
+    main{
+        flex-direction: column;
+        margin: 30px;
+    }
+    .heading{
+        display: none;
+    }
+    .box{
+        width: 100%;
+        height: 300px;
+    }
+    .p-hihat{
+        display: none;
+    }
+    .p-drumroll{
+        display: none;
+    }
+    .p-snare{
+        display: none;
+    }
+    .p-kick{
+        display: none;
+    }
+    button{
+        display: block;
+        margin-left: 200px;
+        margin-top: 210px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: 3px solid rgb(243, 212, 200);
+        background-color: black;
+        color: rgb(240, 220, 213);
+    }
+    button:focus{
+        background-color: rgb(240, 220, 213);
+        color: rgb(250, 207, 128);
+    }
+}

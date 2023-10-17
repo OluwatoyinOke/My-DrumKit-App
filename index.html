@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrumKIT App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1 class="header">DrumKIT App</h1>
+
+    <h3 class="heading">Press the keys on your keyboard to play the sounds.</h3>
+<main>
+    <div class="box hi-hat">
+        <h3 class="header-hihat">Hi Hat</h3>
+        <p class="p-hihat">Press <span id="key">H</span></p>
+        <audio id="audiohihat" src="./assets/sounds/hi-hats.mp3"></audio>
+        <button id="mobileplay">Play Sound</button>
+    </div>
+
+    <div class="box drum-roll">
+        <h3 class="header-drumroll">Drum Roll</h3>
+        <p class="p-drumroll">Press <span id="key">D</span></p>
+        <audio id="audiodrumroll" src="./assets/sounds/drum-roll.mp3"></audio>
+        <button id="mobileplay">Play Sound</button>
+    </div>
+
+    <div class="box snare">
+        <h3 class="header-snare">Snare</h3>
+        <p class="p-snare">Press <span id="key">S</span></p>
+        <audio id="audiosnare" src="./assets/sounds/Snares.mp3"></audio>
+        <button id="mobileplay">Play Sound</button>
+    </div>
+
+    <div class="box kick">
+        <h3 class="header-kick">Kick</h3>
+        <p class="p-kick">Press <span id="key">K</span></p>
+        <audio id="audiokick" src="./assets/sounds/808.mp3"></audio>
+        <button id="mobileplay">Play Sound</button>
+    </div>
+
+</main> 
+
+<script src="./js/app.js"></script>
+</body>
+</html>
