@@ -39,7 +39,7 @@ main{
     }
 } */
 .hi-hat{
-    background-image: url(./assets/images/hihat.png);
+    background-image: url(../assets/images/hihat.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
@@ -63,7 +63,7 @@ main{
     color: rgb(250, 207, 128);
 }
 .drum-roll{
-    background-image: url(./assets/images/drumroll.png);
+    background-image: url(../assets/images/drumroll.png);
     background-size: contain;
     height: 300px;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ main{
     color: rgb(250, 207, 128);
 }
 .snare{
-    background-image: url(./assets/images/snare.png);
+    background-image: url(../assets/images/snare.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
@@ -111,7 +111,7 @@ main{
     color: rgb(250, 207, 128);
 }
 .kick{
-    background-image: url(./assets/images/kick.png);
+    background-image: url(../assets/images/kick.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
