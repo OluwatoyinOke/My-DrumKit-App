@@ -170,11 +170,12 @@ button{
         padding: 10px 15px;
         border-radius: 10px;
         border: 3px solid rgb(243, 212, 200);
-        background-color: black;
-        color: rgb(240, 220, 213);
-    }
-    button:active{
-        background-color: rgb(240, 220, 213);
+        background-color: rgb(185, 105, 76);
         color: rgb(250, 207, 128);
     }
+    /* button:active{
+        display: block;
+        background-color: rgb(240, 220, 213);
+        color: rgb(250, 207, 128);
+    } */
 }
